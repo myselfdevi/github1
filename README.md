@@ -44,5 +44,5 @@ This is a Python-based app to help users track their daily gold savings and moni
 
 python gold_saver.py
 
-AUTHOR
+## Author
 Deviga.R - [https://github.com/myselfdevi]

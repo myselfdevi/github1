@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gold Savings App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Gold Savings App</h1>
+    <nav>
+        <a href="/">Home</a> |
+        <a href="/add">Add Entry</a> |
+        <a href="/summary">Summary</a> |
+        <a href="/progress">Progress</a>
+    </nav>
+    <hr>
+    {% block content %}{% endblock %}
+</body>
+</html>
